@@ -1,4 +1,4 @@
-# simple and recursive linear search in python
+# simple and recursive linear search and double linear search in python
 
 import sys
 
@@ -52,8 +52,8 @@ if __name__ == "__main__":
         print("invalid input")
         sys.exit(0)
     # output = linear_search(arr, to_find)
-    # output = double_linear_search(arr, 0, 5, to_find)
     # output = recursive_linear_search(arr, 0, 5, to_find)
+    # output = double_linear_search(arr, 0, 5, to_find)
     output = recursive_double_linear_search(arr, 0, 5, to_find)
 
     if output != -1:
